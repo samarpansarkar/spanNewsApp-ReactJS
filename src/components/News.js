@@ -33,10 +33,10 @@ export class News extends Component {
                         </div>
                     })}
                 </div>
-                <div className='container d-flex justify-content-around' my-2>
-                    <button type="button" class="btn btn-info">previous page</button>
-                    <button type="button" class="btn btn-info">next page</button>
-                </div>
+                {/* <div className='container d-flex justify-content-around' my-2>
+                    <button type="button" className="btn btn-info">previous page</button>
+                    <button type="button" className="btn btn-info">next page</button>
+                </div> */}
             </div>
         )
     }
